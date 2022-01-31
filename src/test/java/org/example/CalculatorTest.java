@@ -4,9 +4,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class AppIT {
+
+public class CalculatorTest {
+
     @Test
-    void itTest() {
-        assertThat(false).isFalse();
+    void addReturnSum(){
+        assertThat(Calculator.add(1,2)).isEqualTo(3);
     }
 }
