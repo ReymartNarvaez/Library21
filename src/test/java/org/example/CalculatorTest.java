@@ -11,4 +11,9 @@ public class CalculatorTest {
     void addReturnSum(){
         assertThat(Calculator.add(1,2)).isEqualTo(3);
     }
+
+    @Test
+    void addReturnsProduct(){
+        assertThat(Calculator.mul(2,2)).isEqualTo(4);
+    }
 }

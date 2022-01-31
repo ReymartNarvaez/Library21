@@ -6,7 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>library21</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -106,4 +106,11 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub ReymartNarvaez Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/ReymartNarvaez/library21</url>
+        </repository>
+    </distributionManagement>
 </project>
