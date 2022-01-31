@@ -16,4 +16,9 @@ public class CalculatorTest {
     void addReturnsProduct(){
         assertThat(Calculator.mul(2,2)).isEqualTo(4);
     }
+
+    @Test
+    void subReturnsDiff(){
+        assertThat(Calculator.sub(2,1)).isEqualTo(1);
+    }
 }
